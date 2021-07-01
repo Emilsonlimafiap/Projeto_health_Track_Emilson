@@ -1,0 +1,36 @@
+body{background-color: whitesmoke;
+text-align: center;}
+
+#notperfil{background-color: blue;
+    color: white;
+padding: 10px;
+}
+
+#imglogo{padding: 20px;}
+
+#box{background-color:white;
+       border-color: black;
+       box-shadow: 10px 5px 5px rgb(68, 68, 68);
+    text-align: center;
+    margin: inherit;
+    padding: 40px;
+}
+
+#menu{border-color: black;
+    padding: 20px}
+
+#login{text-align: center;
+    padding-top: 0px;
+    border: 20px;
+
+}
+
+#loggog{}
+
+
+
+#btok{border-radius: 25%;
+padding: 20px;}
+
+footer{text-align: center;
+padding-top: 20px;}
