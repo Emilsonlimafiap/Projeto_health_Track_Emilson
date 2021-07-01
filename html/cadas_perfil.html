@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Track - Home</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1,0" />
+        <meta name= "descripition" content="Aplicativo de saúde." />
+        <meta lang="pt-br" />
+        <meta charset="utf-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/sttles.css">
+    </head>
+    <body>
+        <main>
+            <header id=notperfil>
+        <div id= "notperfil" class="container-sm"><h3>Criando seu perfil</h3></div>
+            </header>
+        <p></p>
+        <div id="titulo2">
+            <figure class="text-center">
+            <h1> Digite seus dados!</h1>
+        </figure></div>
+        <p></p>
+        <div id= "box" class="container-fluid">
+            
+            <form id="cadastro_perfil" method="POST" action="/html/perfil.html">
+            <img src = "/images/perfil.png" id="imgperfil" width="30px" height=" 30px">
+            <label for= "nomeus">Nome</label>
+            <input type = "text" id = "nomeus" value="Emilson Lima">
+            <img src="/images/calendario.png"id = "nasc_us" width="30px" height=" 30px">
+            <label for="Data de nascimento">Data de nascimento</label>
+            <input type="text" id= "nascimento" maxlength="15" value="09/10/1992"><br>
+            <p></p>
+        
+            <img src = "/images/balança.png" id="pesous" width="30px" height=" 30px">
+                <label for= "nomeus">Peso</label>
+                <input type = "text" id = "pesous" value="94.7 kg">
+                <img src = "/images/regua.png" id="altus" width="30px" height=" 30px">
+                <label for= "altus">Altura</label>
+                <input type = "text" id = "Altus" value="171.5 cm">
+                <img src="/images/sexo.png"id = "sexo_us" width="30px" height=" 30px">
+             <select id="sexo" name= "sexo">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select><br>
+            </form>
+            <p>
+             </p>
+            </div>
+            <div id=btok> <a href="/html/perfil.html"><img src="/images/concluir.png" class="rounded float-end" alt="Botão de confirmar" width="100px" height="95px"></a></div>
+            <p></p>
+            <footer>
+                <div> Copyright &copy; 2021</div>
+                <div> Emilson Lima </div>
+            </footer>
+            
+       </main>     
+    </body>
+</html>
